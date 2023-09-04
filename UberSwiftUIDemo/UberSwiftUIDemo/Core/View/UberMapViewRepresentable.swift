@@ -15,6 +15,7 @@ struct UberMapViewRepresentable: UIViewRepresentable {
     let locationManager = LocationManager()
     
     func makeUIView(context: Context) -> some UIView {
+        mapView.delegate = context.coordinator
         mapView.isRotateEnabled = false
         mapView.showsUserLocation = true
         mapView.userTrackingMode = .follow
@@ -42,7 +43,7 @@ extension UberMapViewRepresentable {
         /// Did update method
         func mapView(_ mapView: MKMapView, didUpdate userLocation: MKUserLocation) {
             let  region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: userLocation.location?.coordinate.latitude ?? 0.0, longitude: userLocation.location?.coordinate.longitude ?? 0.0), span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
-            print("𝌞latitude\(region.center.latitude)")
+            parent.mapView.setRegion(region, animated: true)
         }
     }
 }

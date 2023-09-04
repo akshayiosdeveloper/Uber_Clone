@@ -334,9 +334,10 @@
 				DEVELOPMENT_TEAM = SCCRUHQ7HK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please provide the location to find drivers near you";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = lllllllocayon;
-				INFOPLIST_KEY_NSLocationUsageDescription = "Please provide the location to find drivers near you";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow driver for location so that he can find you";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow driver for location so that he can find you";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow driver for location so that he can find you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow driver for location so that he can find you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -366,9 +367,10 @@
 				DEVELOPMENT_TEAM = SCCRUHQ7HK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please provide the location to find drivers near you";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = lllllllocayon;
-				INFOPLIST_KEY_NSLocationUsageDescription = "Please provide the location to find drivers near you";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Please allow driver for location so that he can find you";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Please allow driver for location so that he can find you";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Please allow driver for location so that he can find you";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow driver for location so that he can find you";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

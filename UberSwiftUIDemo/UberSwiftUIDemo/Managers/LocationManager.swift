@@ -21,7 +21,7 @@ class LocationManager: NSObject ,  ObservableObject {
 extension LocationManager: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard !locations.isEmpty else { return }
-        print("⊨location\(String(describing: locations.first))")
+        print("⊨ location\(String(describing: locations.first))")
         
     }
     func locationManager(_ manager: CLLocationManager, monitoringDidFailFor region: CLRegion?, withError error: Error) {
